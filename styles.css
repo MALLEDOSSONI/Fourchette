@@ -1,0 +1,127 @@
+/*initialisatio de la page*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url("/img/back-cover.jpg");
+}
+#logo img{
+   width: 278px;
+   height: 96px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+ul li{
+    display: inline-block;
+    border-left: 1px solid #000;
+}
+li a{
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    color: #d86c0c;
+}
+
+#trait{
+    border-top: 1px solid #000;
+    width : 990px;
+    margin: 4px 0 4px 0;
+}
+.okaz{
+    padding-left: 650px;
+   font-style: italic;
+}   
+
+/*Mise en page de la barre de navigation*/
+.container-principal{
+    width: 990px;
+    height: auto;
+    background-color: hsl(358,28%, 95%,0.85);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display: flex;
+}   
+.gauche{
+    width: 280px;
+    height: auto;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.droite{
+    width: 640px;
+    height: auto;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+}
+.titre h3{
+  font-weight: bold;
+}
+.titre p{
+  font-style:italic ; 
+  font-size: small; 
+}
+.titre{
+   margin-bottom: 20px;  
+}
+.gauche h5{
+    margin-bottom: 20px; 
+    margin-top: 10px; 
+}
+.droite h5{
+    margin-bottom: 20px; 
+    margin-top: 10px;  
+}
+#trait-droit{
+    border-top: 1px solid #000;
+    width: 640px;
+    margin-top: 10px; 
+}
+#sujet{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+}
+#vignette{
+   display: flex;
+}
+#vignette div{
+    padding: 5px 5px 0 5px ;
+}
+#vignette div p{
+   text-align: center;
+   color: #b32;
+}
+#vignette div a{
+    text-decoration: none;
+}
+#vignette div p:hover{
+    color: gray;
+}
+#vignette img{
+    width: 200px;
+    height: 150px;
+}
+#last{
+    padding-left: 700px;
+}
+
+
+
+
+
+
+
